@@ -1,12 +1,19 @@
-# React + Vite
+# BMI Calculator - React 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **BMI Calculator** built using React and the `useState` hook.
 
-Currently, two official plugins are available:
+## Description
+This project allows you to enter weight (in lbs) and height (in inches), then it calculates the Body Mass Index (BMI) and shows a message whether you are underweight, normal, or overweight. It also includes a reset/reload button.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- Vite
+- SCSS (for styling)
 
-## Expanding the ESLint configuration
+## Setup & Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/AdarshYadav-dev/bmi-calculator.git
+cd bmi-calculator
+npm install
+npm run dev
